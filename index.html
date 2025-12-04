@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>UNC Club Wrestling</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a href="#home" class="logo">UNC Club Wrestling</a>
+    <button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav id="site-nav" class="site-nav" role="navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#signup">How to Sign Up</a></li>
+        <li><a href="#schedule">Practice Schedule</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero" tabindex="-1" aria-labelledby="home-heading">
+    <div class="container hero-inner">
+      <h1 id="home-heading">Welcome to UNC Club Wrestling</h1>
+      <p class="lead">Join our team — learn technique, build strength, and be part of a supportive community. Blue &amp; White pride!</p>
+      <a class="btn" href="#signup">Join the Team</a>
+      <div class="hero-illustration" aria-hidden="true">
+        
+        <svg width="240" height="120" viewBox="0 0 240 120" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false">
+          <rect width="240" height="120" rx="8" fill="#ffffff" stroke="#0b4da2" stroke-width="4"/>
+          <g fill="#0b4da2">
+            <circle cx="60" cy="60" r="22"/>
+            <rect x="90" y="40" width="24" height="40" rx="6"/>
+            <rect x="130" y="36" width="40" height="12" rx="6"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section id="signup" class="content-area" aria-labelledby="signup-heading">
+    <div class="container">
+      <h2 id="signup-heading">How to Sign Up</h2>
+      <p>Signing up is fast and free. We welcome wrestlers of all skill levels — from beginners to experienced competitors.</p>
+      <ol>
+        <li>Fill out the online interest form (link below).</li>
+        <li>Attend one of our practice sessions listed on the Practice Schedule.</li>
+        <li>Bring appropriate athletic clothing and water.</li>
+        <li>Complete the school's athletics waiver (if required).</li>
+      </ol>
+      <p><a class="btn" href="#contact">Interest Form & Contact</a></p>
+      <aside class="note" aria-label="Signing documents note">
+        <strong>Note:</strong> New members should confirm any eligibility/waiver paperwork with the campus recreation office.
+      </aside>
+    </div>
+  </section>
+
+  <section id="schedule" class="content-area" aria-labelledby="schedule-heading">
+    <div class="container">
+      <h2 id="schedule-heading">Practice Schedule</h2>
+      <p>All practices are held at the Campus Recreation Wrestling Room (Building A, Gym 2).</p>
+      <div class="schedule-grid" role="table" aria-label="Practice schedule">
+        <div class="schedule-row schedule-head" role="row">
+          <div role="columnheader">Day</div>
+          <div role="columnheader">Time</div>
+          <div role="columnheader">Focus</div>
+        </div>
+        <div class="schedule-row" role="row">
+          <div role="cell">Monday</div><div role="cell">6:00pm – 8:00pm</div><div role="cell">Technique & Drills</div>
+        </div>
+        <div class="schedule-row" role="row">
+          <div role="cell">Wednesday</div><div role="cell">6:00pm – 8:00pm</div><div role="cell">Live Sparring</div>
+        </div>
+        <div class="schedule-row" role="row">
+          <div role="cell">Friday</div><div role="cell">4:30pm – 6:00pm</div><div role="cell">Strength & Conditioning</div>
+        </div>
+      </div>
+      <p class="small">Schedule subject to change during tournament weeks — check Events for updates.</p>
+    </div>
+  </section>
+
+  <section id="events" class="content-area" aria-labelledby="events-heading">
+    <div class="container">
+      <h2 id="events-heading">Events & Matches</h2>
+      <p>Below are upcoming events for the season. Contact the coaches for travel information or to RSVP.</p>
+      <ul class="events-list">
+        <li>
+          <time datetime="2025-12-10">December 10, 2025</time> — Local Invitational @ Riverside High School
+        </li>
+        <li>
+          <time datetime="2026-01-15">January 15, 2026</time> — State Prep Tournament @ Central Arena
+        </li>
+        <li>
+          <time datetime="2026-02-12">February 12, 2026</time> — Intercollegiate Friendly Match
+        </li>
+      </ul>
+      <p>If you have an event to add, email the club at <a href="mailto:unc-wrestling@example.com">unc-wrestling@example.com</a>.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="content-area" aria-labelledby="contact-heading">
+    <div class="container">
+      <h2 id="contact-heading">Contact</h2>
+      <p><strong>Head Coach:</strong> Coach Enock</p>
+      <p><strong>Email:</strong> <a href="mailto:unc-wrestling@example.com">unc-wrestling@example.com</a></p>
+      <p><strong>Follow:</strong> <a href="#" aria-label="Follow on Instagram">Instagram</a> · <a href="#" aria-label="Follow on Facebook">Facebook</a></p>
+      <form class="contact-form" action="#" method="post" aria-label="Interest form">
+        <label for="name">Full name</label>
+        <input id="name" name="name" required />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+        <label for="message">Short message</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <p>&copy; UNC Club Wrestling — Demo project. Site created for COMP 126 final project.</p>
+    <p class="credits">Images/Illustrations: original SVGs created by project team.</p>
+  </div>
+</footer>
+
+<script>
+
+(function(){
+  const btn = document.getElementById('menu-toggle');
+  const nav = document.getElementById('site-nav');
+  btn.addEventListener('click', function(){
+    const expanded = this.getAttribute('aria-expanded') === 'true';
+    this.setAttribute('aria-expanded', String(!expanded));
+    nav.classList.toggle('open');
+  });
+  
+  document.querySelectorAll('.site-nav a').forEach(a=>{
+    a.addEventListener('click', function(){
+      const target = document.querySelector(this.getAttribute('href'));
+      if(target) target.focus();
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
